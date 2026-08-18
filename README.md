@@ -1,11 +1,11 @@
 # Hesap Makinesi
 
-C# dili kullanılarak geliştirilen temel bir hesap makinesi uygulamasıdır.
+C# kullanılarak geliştirilmiş konsol tabanlı bir hesap makinesi uygulamasıdır.
 
 ## Projenin Amacı
 
-Bu projenin amacı C# programlama dilinde temel programlama yapılarını kullanarak
-kullanıcıdan alınan sayılar üzerinde farklı matematiksel işlemler gerçekleştirmektir.
+Bu projenin amacı, C# programlama dilinde temel programlama yapılarını kullanarak
+farklı matematiksel işlemleri gerçekleştiren bir hesap makinesi geliştirmektir.
 
 ## Özellikler
 
@@ -13,12 +13,14 @@ kullanıcıdan alınan sayılar üzerinde farklı matematiksel işlemler gerçek
 - Çıkarma işlemi
 - Çarpma işlemi
 - Bölme işlemi
+- Bölme işleminde sıfır kontrolü
+- Karekök alma
+- Negatif sayı için karekök kontrolü
 - Kare alma
-- Kareköklü işlem
 - Üs alma
-- Kullanıcıdan veri alma
 - Menü üzerinden işlem seçme
-- Programı sonlandırma seçeneği
+- Geçersiz işlem kontrolü
+- Programdan çıkış seçeneği
 
 ## Kullanılan Teknolojiler
 
@@ -28,6 +30,8 @@ kullanıcıdan alınan sayılar üzerinde farklı matematiksel işlemler gerçek
 
 ## Kullanım
 
-Program çalıştırıldığında kullanıcıya işlemler sunulur.
-Kullanıcı yapmak istediği işlemi seçerek gerekli sayıları girer.
-Seçilen işleme göre sonuç ekrana yazdırılır.
+Program çalıştırıldığında kullanıcıya yapılabilecek işlemler bir menü halinde
+sunulur. Kullanıcı yapmak istediği işlemi seçer ve gerekli sayıları girer.
+Program seçilen işleme göre sonucu ekrana yazdırır.
+
+Programdan çıkmak için `0` seçeneği kullanılabilir.
